@@ -1,4 +1,4 @@
-00000//
+//
 //  ViewController.swift
 //  trinkgelder
 //
@@ -18,8 +18,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         billField.becomeFirstResponder()
-                
+        
         let logo = UIImage(named: "Logo")
         let imageView = UIImageView(image:logo)
         self.navigationItem.titleView = imageView
@@ -29,7 +30,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
     }
