@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FA54B31D86280500E314B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA54B21D86280500E314B3 /* AppDelegate.swift */; };
+		31FA54B51D86280500E314B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA54B41D86280500E314B3 /* ViewController.swift */; };
+		31FA54B81D86280500E314B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FA54B61D86280500E314B3 /* Main.storyboard */; };
+		31FA54BA1D86280500E314B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FA54B91D86280500E314B3 /* Assets.xcassets */; };
+		31FA54BD1D86280500E314B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FA54BB1D86280500E314B3 /* LaunchScreen.storyboard */; };
+		31FA54C81D86280500E314B3 /* trinkgelderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA54C71D86280500E314B3 /* trinkgelderTests.swift */; };
+		31FA54D31D86280500E314B3 /* trinkgelderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA54D21D86280500E314B3 /* trinkgelderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31FA54C41D86280500E314B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FA54A71D86280500E314B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FA54AE1D86280500E314B3;
+			remoteInfo = trinkgelder;
+		};
+		31FA54CF1D86280500E314B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FA54A71D86280500E314B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FA54AE1D86280500E314B3;
+			remoteInfo = trinkgelder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31FA54AF1D86280500E314B3 /* trinkgelder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trinkgelder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FA54B21D86280500E314B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31FA54B41D86280500E314B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31FA54B71D86280500E314B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31FA54B91D86280500E314B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31FA54BC1D86280500E314B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31FA54BE1D86280500E314B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FA54C31D86280500E314B3 /* trinkgelderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trinkgelderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FA54C71D86280500E314B3 /* trinkgelderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trinkgelderTests.swift; sourceTree = "<group>"; };
+		31FA54C91D86280500E314B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FA54CE1D86280500E314B3 /* trinkgelderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trinkgelderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FA54D21D86280500E314B3 /* trinkgelderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trinkgelderUITests.swift; sourceTree = "<group>"; };
+		31FA54D41D86280500E314B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31FA54AC1D86280500E314B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA54C01D86280500E314B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA54CB1D86280500E314B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31FA54A61D86280500E314B3 = {
+			isa = PBXGroup;
+			children = (
+				31FA54B11D86280500E314B3 /* trinkgelder */,
+				31FA54C61D86280500E314B3 /* trinkgelderTests */,
+				31FA54D11D86280500E314B3 /* trinkgelderUITests */,
+				31FA54B01D86280500E314B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31FA54B01D86280500E314B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31FA54AF1D86280500E314B3 /* trinkgelder.app */,
+				31FA54C31D86280500E314B3 /* trinkgelderTests.xctest */,
+				31FA54CE1D86280500E314B3 /* trinkgelderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31FA54B11D86280500E314B3 /* trinkgelder */ = {
+			isa = PBXGroup;
+			children = (
+				31FA54B21D86280500E314B3 /* AppDelegate.swift */,
+				31FA54B41D86280500E314B3 /* ViewController.swift */,
+				31FA54B61D86280500E314B3 /* Main.storyboard */,
+				31FA54B91D86280500E314B3 /* Assets.xcassets */,
+				31FA54BB1D86280500E314B3 /* LaunchScreen.storyboard */,
+				31FA54BE1D86280500E314B3 /* Info.plist */,
+			);
+			path = trinkgelder;
+			sourceTree = "<group>";
+		};
+		31FA54C61D86280500E314B3 /* trinkgelderTests */ = {
+			isa = PBXGroup;
+			children = (
+				31FA54C71D86280500E314B3 /* trinkgelderTests.swift */,
+				31FA54C91D86280500E314B3 /* Info.plist */,
+			);
+			path = trinkgelderTests;
+			sourceTree = "<group>";
+		};
+		31FA54D11D86280500E314B3 /* trinkgelderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31FA54D21D86280500E314B3 /* trinkgelderUITests.swift */,
+				31FA54D41D86280500E314B3 /* Info.plist */,
+			);
+			path = trinkgelderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31FA54AE1D86280500E314B3 /* trinkgelder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FA54D71D86280500E314B3 /* Build configuration list for PBXNativeTarget "trinkgelder" */;
+			buildPhases = (
+				31FA54AB1D86280500E314B3 /* Sources */,
+				31FA54AC1D86280500E314B3 /* Frameworks */,
+				31FA54AD1D86280500E314B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trinkgelder;
+			productName = trinkgelder;
+			productReference = 31FA54AF1D86280500E314B3 /* trinkgelder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31FA54C21D86280500E314B3 /* trinkgelderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FA54DA1D86280500E314B3 /* Build configuration list for PBXNativeTarget "trinkgelderTests" */;
+			buildPhases = (
+				31FA54BF1D86280500E314B3 /* Sources */,
+				31FA54C01D86280500E314B3 /* Frameworks */,
+				31FA54C11D86280500E314B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31FA54C51D86280500E314B3 /* PBXTargetDependency */,
+			);
+			name = trinkgelderTests;
+			productName = trinkgelderTests;
+			productReference = 31FA54C31D86280500E314B3 /* trinkgelderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31FA54CD1D86280500E314B3 /* trinkgelderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FA54DD1D86280500E314B3 /* Build configuration list for PBXNativeTarget "trinkgelderUITests" */;
+			buildPhases = (
+				31FA54CA1D86280500E314B3 /* Sources */,
+				31FA54CB1D86280500E314B3 /* Frameworks */,
+				31FA54CC1D86280500E314B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31FA54D01D86280500E314B3 /* PBXTargetDependency */,
+			);
+			name = trinkgelderUITests;
+			productName = trinkgelderUITests;
+			productReference = 31FA54CE1D86280500E314B3 /* trinkgelderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31FA54A71D86280500E314B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yang Yang";
+				TargetAttributes = {
+					31FA54AE1D86280500E314B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					31FA54C21D86280500E314B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 31FA54AE1D86280500E314B3;
+					};
+					31FA54CD1D86280500E314B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 31FA54AE1D86280500E314B3;
+					};
+				};
+			};
+			buildConfigurationList = 31FA54AA1D86280500E314B3 /* Build configuration list for PBXProject "trinkgelder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31FA54A61D86280500E314B3;
+			productRefGroup = 31FA54B01D86280500E314B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31FA54AE1D86280500E314B3 /* trinkgelder */,
+				31FA54C21D86280500E314B3 /* trinkgelderTests */,
+				31FA54CD1D86280500E314B3 /* trinkgelderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31FA54AD1D86280500E314B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA54BD1D86280500E314B3 /* LaunchScreen.storyboard in Resources */,
+				31FA54BA1D86280500E314B3 /* Assets.xcassets in Resources */,
+				31FA54B81D86280500E314B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA54C11D86280500E314B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA54CC1D86280500E314B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31FA54AB1D86280500E314B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA54B51D86280500E314B3 /* ViewController.swift in Sources */,
+				31FA54B31D86280500E314B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA54BF1D86280500E314B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA54C81D86280500E314B3 /* trinkgelderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA54CA1D86280500E314B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA54D31D86280500E314B3 /* trinkgelderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31FA54C51D86280500E314B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31FA54AE1D86280500E314B3 /* trinkgelder */;
+			targetProxy = 31FA54C41D86280500E314B3 /* PBXContainerItemProxy */;
+		};
+		31FA54D01D86280500E314B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31FA54AE1D86280500E314B3 /* trinkgelder */;
+			targetProxy = 31FA54CF1D86280500E314B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31FA54B61D86280500E314B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FA54B71D86280500E314B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31FA54BB1D86280500E314B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FA54BC1D86280500E314B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31FA54D51D86280500E314B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31FA54D61D86280500E314B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31FA54D81D86280500E314B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = trinkgelder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.trinkgelder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31FA54D91D86280500E314B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = trinkgelder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.trinkgelder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31FA54DB1D86280500E314B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = trinkgelderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.trinkgelderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trinkgelder.app/trinkgelder";
+			};
+			name = Debug;
+		};
+		31FA54DC1D86280500E314B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = trinkgelderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.trinkgelderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trinkgelder.app/trinkgelder";
+			};
+			name = Release;
+		};
+		31FA54DE1D86280500E314B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = trinkgelderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.trinkgelderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = trinkgelder;
+			};
+			name = Debug;
+		};
+		31FA54DF1D86280500E314B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = trinkgelderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.trinkgelderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = trinkgelder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31FA54AA1D86280500E314B3 /* Build configuration list for PBXProject "trinkgelder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FA54D51D86280500E314B3 /* Debug */,
+				31FA54D61D86280500E314B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FA54D71D86280500E314B3 /* Build configuration list for PBXNativeTarget "trinkgelder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FA54D81D86280500E314B3 /* Debug */,
+				31FA54D91D86280500E314B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31FA54DA1D86280500E314B3 /* Build configuration list for PBXNativeTarget "trinkgelderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FA54DB1D86280500E314B3 /* Debug */,
+				31FA54DC1D86280500E314B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31FA54DD1D86280500E314B3 /* Build configuration list for PBXNativeTarget "trinkgelderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FA54DE1D86280500E314B3 /* Debug */,
+				31FA54DF1D86280500E314B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31FA54A71D86280500E314B3 /* Project object */;
+}
