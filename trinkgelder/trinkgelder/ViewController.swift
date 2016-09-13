@@ -112,6 +112,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                         self.tipName = "Propinas"
                         self.tipPercentages = [0.08, 0.115, 0.15]
                     default:
+                        self.currency = "$"
+                        self.tipName = "Tips"
                         self.tipPercentages = [0.18, 0.2, 0.25]
                     }
                 }
@@ -124,13 +126,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 if let country = placemark.country {
                     locationText += ", \(country)"
                 }
-                self.locationLabel.text = self.tipName + " 💰 " + "\(locationText)"
+                
+                self.billField.placeholder = "\(self.currency)0.00"
+                self.locationLabel.text = self.tipName + "💰 \(locationText)"
             }
         })
     }
     
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
+        
+        self.billField.placeholder = "\(self.currency)0.00"
         
         UIView.animateWithDuration(0.4, delay: 0.2, options: [], animations: {
             self.tipLabel.alpha = 0
@@ -149,6 +155,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         })
     }
     @IBAction func calculateTip(sender: AnyObject) {
+        
+        self.tipValue.text = "\(self.currency)0.00"
+        self.totalValue.text = "\(self.currency)0.00"
 
         let bill = Double(billField.text!) ?? 0
         let tip = bill * self.tipPercentages[tipControl.selectedSegmentIndex]
