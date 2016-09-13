@@ -9,16 +9,20 @@ Time spent: **X** hours spent in total
 ## User Stories
 
 The following **required** functionality is complete:
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Custom font
-* [ ] UI animations
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Custom font
+* [x] UI animations
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] User location permissions and detection, as shown in bottom bar
+- [x] Rudimentary implementation of dynamic currency based on user location (not locale)
+- [x] Rudimentary implementation of tip percentages based on user location (values based on cultural expectations of country)
+- [x] Emoji "reaction" labels instead of percentage values for tip percentages
+- [x] App icon
 
 ## Video Walkthrough
 

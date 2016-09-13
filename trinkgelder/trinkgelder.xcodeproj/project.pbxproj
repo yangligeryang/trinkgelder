@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31B10F311D87945D00F55506 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B10F301D87945D00F55506 /* CoreLocation.framework */; };
+		31B10F331D8794C300F55506 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B10F321D8794C300F55506 /* MapKit.framework */; };
 		31FA54B31D86280500E314B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA54B21D86280500E314B3 /* AppDelegate.swift */; };
 		31FA54B51D86280500E314B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA54B41D86280500E314B3 /* ViewController.swift */; };
 		31FA54B81D86280500E314B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FA54B61D86280500E314B3 /* Main.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31B10F301D87945D00F55506 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		31B10F321D8794C300F55506 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		31FA54AF1D86280500E314B3 /* trinkgelder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trinkgelder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FA54B21D86280500E314B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31FA54B41D86280500E314B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31FA54B41D86280500E314B3 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31FA54B71D86280500E314B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31FA54B91D86280500E314B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31FA54BC1D86280500E314B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B10F331D8794C300F55506 /* MapKit.framework in Frameworks */,
+				31B10F311D87945D00F55506 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +83,8 @@
 		31FA54A61D86280500E314B3 = {
 			isa = PBXGroup;
 			children = (
+				31B10F321D8794C300F55506 /* MapKit.framework */,
+				31B10F301D87945D00F55506 /* CoreLocation.framework */,
 				31FA54B11D86280500E314B3 /* trinkgelder */,
 				31FA54C61D86280500E314B3 /* trinkgelderTests */,
 				31FA54D11D86280500E314B3 /* trinkgelderUITests */,
@@ -193,6 +201,12 @@
 				TargetAttributes = {
 					31FA54AE1D86280500E314B3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4YWZZ939H4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					31FA54C21D86280500E314B3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -399,10 +413,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = trinkgelder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.trinkgelder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +427,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = trinkgelder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.trinkgelder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +502,7 @@
 				31FA54D91D86280500E314B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31FA54DA1D86280500E314B3 /* Build configuration list for PBXNativeTarget "trinkgelderTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				31FA54DC1D86280500E314B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31FA54DD1D86280500E314B3 /* Build configuration list for PBXNativeTarget "trinkgelderUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				31FA54DF1D86280500E314B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
