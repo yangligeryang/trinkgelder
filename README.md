@@ -1,4 +1,4 @@
-# Pre-work - Trinkgelder
+# CodePath pre-work
 
 **Trinkgelder** is a tip calculator application for iOS.
 
@@ -6,7 +6,7 @@ Submitted by: **Yang (Linda) Yang**
 
 Time spent: **8** hours spent in total
 
-## User Stories
+## Tasks
 
 The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 - [x] Emoji "reaction" labels instead of percentage values for tip percentages
 - [x] App icon
 
-## Video Walkthrough
+## Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
