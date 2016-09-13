@@ -4,7 +4,7 @@
 
 Submitted by: **Yang (Linda) Yang**
 
-Time spent: **X** hours spent in total
+Time spent: **8** hours spent in total
 
 ## User Stories
 
@@ -28,13 +28,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<a href="/course_images/ios_for_designers/name%20of%20your%20file%20in%20the%20repo.gif" target="_blank"><img src='/course_images/ios_for_designers/name%20of%20your%20file%20in%20the%20repo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+![Trinkgelder video walkthrough](https://raw.githubusercontent.com/yangligeryang/trinkgelder/master/trinkgelder.gif?token=AA4y7Pf8HpnAd5JHC1GEHW0__5DLARs9ks5X4NwywA%3D%3D)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+My primary idea and goal was to create a travel tip calculator that you can use to calculate tips when you travel to other countries. This came out of a recent travel experience. With limited internet and information, it's hard to know how to tip appropriately and avoid offending or overcompensating.
+
+Percentage values are symbols of our reactions to customer service. I feel that emoji better represent what we really mean when we decide tip percentage. I tried to add a max input limit and real-time formatting for the bill field but it proved too complicated and less interesting. The animation is a bit wonky and very basic, but again, it wasn't my focus.
 
 ## License
 
