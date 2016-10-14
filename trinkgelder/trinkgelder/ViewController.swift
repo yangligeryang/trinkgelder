@@ -50,7 +50,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location:CLLocation = locations[0] as CLLocation
 
         let geocoder = CLGeocoder()
@@ -61,7 +61,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 let placemark = placemarks![0] as CLPlacemark
                 var locationText = ""
                 
-                if let countryCode = placemark.ISOcountryCode {
+                if let countryCode = placemark.isoCountryCode {
                     switch countryCode {
                     case "FR":
                         self.currency = "€"
@@ -133,12 +133,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         })
     }
     
-    @IBAction func onTap(sender: AnyObject) {
+    @IBAction func onTap(_ sender: AnyObject) {
         view.endEditing(true)
         
         self.billField.placeholder = "\(self.currency)0.00"
         
-        UIView.animateWithDuration(0.4, delay: 0.2, options: [], animations: {
+        UIView.animate(withDuration: 0.4, delay: 0.2, options: [], animations: {
             self.tipLabel.alpha = 0
             self.tipValue.alpha = 0
             
@@ -146,7 +146,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.tipValue.frame.origin.y = self.tipValue.frame.origin.y + 40
         }, completion: nil)
 
-        UIView.animateWithDuration(0.4, animations: {
+        UIView.animate(withDuration: 0.4, animations: {
             self.totalLabel.alpha = 0
             self.totalValue.alpha = 0
             
@@ -154,7 +154,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.totalValue.frame.origin.y = self.totalValue.frame.origin.y + 40
         })
     }
-    @IBAction func calculateTip(sender: AnyObject) {
+    @IBAction func calculateTip(_ sender: AnyObject) {
         
         self.tipValue.text = "\(self.currency)0.00"
         self.totalValue.text = "\(self.currency)0.00"
@@ -171,9 +171,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
-    @IBAction func animateValues(sender: AnyObject) {
+    @IBAction func animateValues(_ sender: AnyObject) {
         
-        UIView.animateWithDuration(0.4, animations: {
+        UIView.animate(withDuration: 0.4, animations: {
             self.tipLabel.alpha = 1
             self.tipValue.alpha = 1
             
@@ -181,7 +181,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.tipValue.frame.origin.y = self.tipValue.frame.origin.y - 40
         })
         
-        UIView.animateWithDuration(0.4, delay: 0.2, options: [], animations: {
+        UIView.animate(withDuration: 0.4, delay: 0.2, options: [], animations: {
             
             self.totalLabel.alpha = 1
             self.totalValue.alpha = 1
